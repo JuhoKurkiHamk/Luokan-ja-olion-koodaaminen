@@ -41,7 +41,7 @@ class Jaakaappi
 	public void printData() // tulostaa tiedot
 	{
 		System.out.println("Jaakaappi");
-		System.out.println("Merkki: " + merkki);
+		System.out.println("Merkki on " + merkki);
 		System.out.println("Jaakaapin korkeus: " + korkeus + "cm");
 		if (isOn)
 		{
@@ -53,4 +53,4 @@ class Jaakaappi
 		}
 	}
 	
-}
+} 
