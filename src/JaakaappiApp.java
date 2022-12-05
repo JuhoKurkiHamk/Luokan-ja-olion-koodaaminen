@@ -15,7 +15,7 @@ public class JaakaappiApp {
 
 	}
 
-}// end of the jaakaappi app
+}// end of the jaakaappiApp
 
 class Jaakaappi
 {
