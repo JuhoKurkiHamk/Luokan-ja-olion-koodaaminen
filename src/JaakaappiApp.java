@@ -4,10 +4,12 @@ public class JaakaappiApp {
 	public static void main(String[] args) {
 
 		Jaakaappi jaakaappi1 = new Jaakaappi();
-		Jaakaappi jaakaappi2 = new Jaakaappi("Samsung", 180, true);
+		Jaakaappi jaakaappi2 = new Jaakaappi("Samsung", 180, true); //jaakaappi päällä (true)
+		Jaakaappi jaakaappi3 = new Jaakaappi("Miele", 200, false); //jaakaappi sammutettuna (false)
 		
 		jaakaappi1.printData();
 		jaakaappi2.printData();
+		jaakaappi3.printData();
 		
 	
 		
